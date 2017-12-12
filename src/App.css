@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  max-width: 100%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.SearchText{
+  float: left;
+  color: white;
+  background-color: #4AB3F4;
+  width: 100%;
+  text-align: left;
+}
+
+.LeftPage{
+  float:left;
+  margin-top: 50;
+}
+
+.aTag{
+  color:#4AB3F4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.followBtnText{
+  background-color: #ffffff;
+  color:#4AB3F4;
+  text-transform:capitalize;
+  border: 2px solid #4AB3F4;
+  border-radius: 60px;
+  padding: 5px; 
+}
+
+.tweetBtnText{
+  background-color: #4AB3F4;
+  color:#ffffff;
+  border-radius: 60px;
+  padding: 5px; 
+  text-transform:capitalize;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
